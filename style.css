@@ -1,0 +1,145 @@
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(ellipse at center, #1a0033 0%, #0b001a 100%);
+  font-family: 'Segoe UI', sans-serif;
+  color: #f5eaff;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: #d946ef;
+  text-shadow: 0 0 15px #d946efcc, 0 0 30px #9f40ff;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+#last-updated {
+  color: #b58dfc;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  user-select: none;
+  text-shadow: 0 0 5px #b58dfccc;
+}
+
+#search {
+  display: block;
+  margin: 0 auto 2rem auto;
+  padding: 0.75rem 1.2rem;
+  width: 90%;
+  max-width: 480px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  color: #fff;
+  background: rgba(91, 0, 122, 0.3);
+  box-shadow: 0 0 10px #c084fc88 inset, 0 0 10px #c084fc44;
+  backdrop-filter: blur(8px);
+  outline: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: rgba(105, 0, 150, 0.15);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px #c084fc66;
+  backdrop-filter: blur(12px);
+  transition: transform 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px #c084fcaa;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+  color: #e0b3ff;
+}
+
+.card h2 img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.symbol {
+  margin-left: auto;
+  font-size: 0.9rem;
+  color: #d1bbffcc;
+  font-weight: 600;
+  user-select: text;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #00ffcc;
+}
+
+.change,
+.marketcap {
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+}
+
+.green {
+  color: #4fff8f;
+  font-weight: bold;
+  text-shadow: 0 0 5px #4fff8faa;
+}
+
+.red {
+  color: #ff4f70;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ff4f70aa;
+}
+
+#loading {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+  color: #c084fc;
+  text-shadow: 0 0 10px #c084fc88;
+  user-select: none;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #b58dfc;
+  text-shadow: 0 0 5px #b58dfccc;
+  user-select: none;
+}
