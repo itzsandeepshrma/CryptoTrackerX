@@ -41,9 +41,6 @@ cd CryptoTrackerX
 open index.html
 ```
 
-Or open the live version directly in your browser:  
-https://itzsandeepshrma.github.io/CryptoTrackerX
-
 ---
 
 ## How It Works
