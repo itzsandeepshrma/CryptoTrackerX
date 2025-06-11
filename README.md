@@ -1,59 +1,77 @@
 # CryptoTrackerX
 
-**CryptoTrackerX** is a sleek, real-time cryptocurrency price tracker that provides up-to-date market data for over 100+ coins. Designed with a modern and elegant UI, it offers smooth searching, live price updates, and key metrics like market cap and 24-hour price change — all in one responsive web app.
+**CryptoTrackerX** is a real-time cryptocurrency price tracking 100+ coins dashboard built using HTML, CSS, and JavaScript. It fetches the latest market data for top cryptocurrencies and displays their live price, 24-hour change, and market rank. Designed with a modern interface and smooth interactions, it's optimized for speed and responsiveness.
 
 ---
 
 ## Features
 
-- Real-time cryptocurrency prices and market data  
-- Search functionality to quickly find your favorite coins  
-- Dynamic 24-hour price change percentage with color-coded indicators  
-- Market capitalization display for better insight  
-- Auto-refreshes data every second for up-to-the-moment accuracy  
-- Responsive grid layout for optimal viewing on all devices  
-- Subtle animations and glow effects for an engaging UI  
-- Clean, minimalistic design with dark theme aesthetics  
-- Footer with last updated timestamp and credits  
+- Displays live price of top cryptocurrencies  
+- Real-time data fetched using CoinGecko API  
+- Shows 24-hour percentage change and market cap rank  
+- Clean and responsive UI with modern layout  
+- Auto-refreshes to ensure updated market information  
+- User-friendly design optimized for all devices  
+- Fast and lightweight interface without dependencies
 
 ---
 
 ## Tech Stack
 
-- **HTML5** & **CSS3** (with modern Flexbox and Grid layouts)  
-- **Vanilla JavaScript (ES6+)** for API fetching, rendering, and interactivity    
+- HTML5  
+- CSS3 (Responsive design and styling)  
+- Vanilla JavaScript (ES6+)  
+- CoinGecko API for real-time crypto data  
+- Deployed using GitHub Pages
+
+---
+
+## Live Preview
+
+- [CryptoTrackerX](https://itzsandeepshrma.github.io/CryptoTrackerX)  
 
 ---
 
 ## Installation & Usage
 
-No installation required! Simply clone or download this repository and open `index.html` in your favorite browser. Alternatively, access the live demo hosted here:
+### Clone the repository
+```bash
+git clone https://github.com/itzsandeepshrma/CryptoTrackerX.git
+cd CryptoTrackerX
+open index.html
+```
 
-**[CryptoTrackerX](https://itzsandeepshrma.github.io/CryptoTrackerX/)**
+Or open the live version directly in your browser:  
+https://itzsandeepshrma.github.io/CryptoTrackerX
 
 ---
 
-## How it works
+## How It Works
 
-- Fetches the latest market data for cryptocurrencies 
-- Displays a card for each coin showing name, symbol, current price, 24h change, and market cap  
-- Automatically updates data every 1 second  
-- Search bar filters coins in real-time based on user input  
+- Uses the public CoinGecko API to fetch real-time data  
+- Parses the JSON response to extract live prices, rank, and change  
+- Updates DOM elements dynamically with fresh data  
+- Responsive card layout adapts to all screen sizes  
+- No API key required for public crypto data access
 
 ---
 
 ## Contribution
 
-Contributions, issues, and feature requests are welcome! Feel free to check the 
-**[Fork](https://github.com/itzsandeepshrma/CryptoTrackerX/fork)** and to submit a **[Pull Request](https://github.com/itzsandeepshrma/CryptoTrackerX/pulls)** and **[Issues page](https://github.com/itzsandeepshrma/CryptoTrackerX/issues)**
+Contributions and suggestions are welcome.  
+If you have ideas to improve CryptoTrackerX, feel free to fork the project and submit a pull request.
+
+- [Fork the Repository](https://github.com/itzsandeepshrma/CryptoTrackerX/fork)  
+- [Submit a Pull Request](https://github.com/itzsandeepshrma/CryptoTrackerX/pulls)  
+- [Open an Issue](https://github.com/itzsandeepshrma/CryptoTrackerX/issues)
+
 
 ---
 
 **© 2025 sᴧɴᴅᴇᴇᴘ sʜᴧʀᴍᴧ ᴧʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ**
 
-## License
-
-This project is licensed under the **[MIT License](https://github.com/itzsandeepshrma/CryptoTrackerX/blob/main/LICENSE)**
-
 ---
 
+## License
+
+This project is licensed under the [MIT License](https://github.com/itzsandeepshrma/CryptoTrackerX/blob/main/LICENSE).
